@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.septianapp.androidquiz.homepage"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="@drawable/wallpaperhomepage">
+
+    <Button
+        android:id="@+id/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ANDROID"
+        android:padding="20dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:onClick="goToAndroidActivity"/>
+
+    <Button
+        android:id="@+id/math"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/android"
+        android:text="MATH"
+        android:padding="20dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:onClick="goToMathActivity"/>
+
+    <Button
+        android:id="@+id/science"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/math"
+        android:text="SCIENCE"
+        android:padding="20dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:onClick="goToScienceActivity"/>
+
+</RelativeLayout>

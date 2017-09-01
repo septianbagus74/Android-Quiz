@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Android Quiz</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Powered by Google!</string>
+    <string name="slide_1_desc">The easiest way to create app from your device!</string>
+
+    <string name="slide_2_title">Follow me in Instagram</string>
+    <string name="slide_2_desc">you can see and follow me @septianbagus74!</string>
+
+    <string name="slide_3_title">Look my code in Github</string>
+    <string name="slide_3_desc">Here is my github address https://github.com/septianbagus74</string>
+
+    <string name="slide_4_title">Google Drive</string>
+    <string name="slide_4_desc">just send your email to septianbagusprasetyo@gmail.com</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
 </resources>

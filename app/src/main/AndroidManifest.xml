@@ -9,13 +9,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Introslider.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".homepage" />
+        <activity android:name=".QuizMath" />
+        <activity android:name=".QuizAndroid" />
+        <activity android:name=".quizAboutAndroid.QuizOneAndroid" />
+        <activity android:name=".quizAboutAndroid.QuizTwoAndroid" />
+        <activity android:name=".quizAboutAndroid.QuizThreeAndroid" />
+        <activity android:name=".quizAboutAndroid.QuizFourAndroid" />
+        <activity android:name=".quizAboutAndroid.QuizFiveAndroid" />
+        <activity android:name=".quizAboutMath.QuizOneMath" />
+        <activity android:name=".quizAboutMath.QuizTwoMath" />
+        <activity android:name=".quizAboutMath.QuizThreeMath" />
+        <activity android:name=".quizAboutMath.QuizFourMath" />
+        <activity android:name=".quizAboutMath.QuizFiveMath" />
+        <activity android:name=".QuizScience" />
+        <activity android:name=".quizAboutScience.QuizOneScience" />
+        <activity android:name=".quizAboutScience.QuizTwoScience" />
+        <activity android:name=".quizAboutScience.QuizThreeScience" />
+        <activity android:name=".quizAboutScience.QuizFourScience" />
+        <activity android:name=".quizAboutScience.QuizFiveScience"></activity>
     </application>
 
 </manifest>
