@@ -55,7 +55,7 @@ public class QuizFiveAndroid extends AppCompatActivity {
         builder = new AlertDialog.Builder(this);
         builder.setCancelable(false);
         builder.setTitle("Yeaaay !!!");
-        builder.setMessage("Your Already finish this Quiz!");
+        builder.setMessage("You Already finish this Quiz!");
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {

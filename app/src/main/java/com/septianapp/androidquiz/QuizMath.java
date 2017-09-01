@@ -26,11 +26,11 @@ public class QuizMath extends AppCompatActivity {
             "Question Number Five"
     };
     Integer[] imageId = {
-            R.drawable.oneandroid,
-            R.drawable.twoandroid,
-            R.drawable.threeandroid,
-            R.drawable.fourandroid,
-            R.drawable.fiveandroid
+            R.drawable.math,
+            R.drawable.math,
+            R.drawable.math,
+            R.drawable.math,
+            R.drawable.math
     };
 
     @Override
